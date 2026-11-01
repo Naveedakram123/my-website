@@ -1,12 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Website</title>
-  </head>
-  <body>
-    <h1>Welcome to my website</h1>
-    <p>My website is hosted on AWS.</p>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Assignment 2 - AWS EC2 Deployment</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+        h1 {
+            color: #2563eb;
+            margin-top: 0;
+        }
+        .badge {
+            background-color: #dcfce7;
+            color: #15803d;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .info-list {
+            list-style: none;
+            padding: 0;
+        }
+        .info-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .info-list strong {
+            color: #1e293b;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <span class="badge">✓ Live Deployment Active</span>
+        <h1>DevOps Assignment No. 2</h1>
+        <p>Automated deployment completed successfully using GitHub Actions, AWS EC2, and Nginx.</p>
+        
+        <ul class="info-list">
+            <li><strong>Student Name:</strong> M Naveed Akram</li>
+            <li><strong>Roll / ID:</strong> M Naveed Akram-025</li>
+            <li><strong>Infrastructure:</strong> AWS EC2 (Ubuntu 24.04 LTS)</li>
+            <li><strong>Web Server:</strong> Nginx</li>
+            <li><strong>Public IP:</strong> 15.134.205.118</li>
+            <li><strong>CI/CD Pipeline:</strong> GitHub Actions (Automated Push)</li>
+        </ul>
+    </div>
+</body>
 </html>
